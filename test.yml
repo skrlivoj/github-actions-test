@@ -1,0 +1,23 @@
+name: Vojta
+surname: Skrlik
+address: "Eldorado 1740, Rychvald"
+age: 41
+key:
+    key: value
+    key2: value2
+    key3:
+      key: value
+      key2: value2
+jsonObject: {key: value, key2: value, key3: {key: value, key2: value}  }
+array:
+    - item1
+    - item2
+jsonArray: [item1, item2]
+objectsArray:
+    - key: value
+      key2: value2
+    - key2: value
+longText: |
+    adadaf affsdfgsd sdfwefrwihihfis
+    fsdfohihisd hihihiuis iuoiuiouoojojl
+    iouoijojljljljlhgihi
