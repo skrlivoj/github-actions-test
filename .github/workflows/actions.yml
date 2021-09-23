@@ -31,6 +31,7 @@ jobs:
           echo "GITHUB_REPOSITORY=$GITHUB_REPOSITORY"
           echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
           echo "github.token=${{ github.token }}"
+          echo "github.event.client_payload=${{ github.event.client_payload }}"
       # - name: Simple JS Action
       #   id: greet
       #   uses: actions/hello-world-javascript-action@v1
