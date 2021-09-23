@@ -1,7 +1,9 @@
 name: Shell commands
 
 on:
-  - push
+  push:
+    branches-ignore:
+      - master
 
 jobs:
   run-shell-command:
