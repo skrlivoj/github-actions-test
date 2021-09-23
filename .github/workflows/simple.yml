@@ -7,11 +7,12 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - name: echo a string
+      - name: no.1 echo a string
         run: echo "Hello"
-      - name: multiline script
+      - name: no.2 multiline script
         run: |
           date
-          ping -v
+          pwd
+          ls -la
         
   
