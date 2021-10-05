@@ -4,7 +4,7 @@ on: push
 
 jobs:
   node-docker:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     services:
       app:
         image: alialaa17/node-api
@@ -19,3 +19,6 @@ jobs:
         run: "curl -X POST http://localhost:3001/api/user -H 'Content-Type: application/json' -d '{\"username\": \"hello\",\"address\": \"blabla\"}'"
       - name: Get users 
         run: curl http://localhost:3001/api/users
+      - name: Log OS version
+        run: |
+          cat /etc/os-release
