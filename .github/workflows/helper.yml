@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
     paths:
-      - folder1/** 
+      - "folder1/**"
 
 jobs:
   default-job:
