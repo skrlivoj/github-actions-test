@@ -1,6 +1,10 @@
 name: Helper
 
-on: push
+on:
+  push:
+    branches: [master]
+    paths:
+      - folder1/** 
 
 jobs:
   default-job:
